@@ -15,8 +15,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
 .landing-review {
   background: linear-gradient(135deg, #4629DD,#7F2FE6);
   background-size: 110%;
 }
+
+/* LANDING PAGE TYPING ANIMATION  */
+
+
+/* .landing-typing-option {
+  margin-left: 15px;
+  overflow: hidden;
+}
+.landing-typing-option li {
+  list-style: none;
+  color: #face30;
+  font-size: 60px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+@keyframes slide {
+  100% {
+    top: -360px;
+  }
+}
+.landing-typing-option li h1 {
+  position: relative;
+  margin: 5px 0; */
+  /* line-height: 90px; */
+/* }
+.landing-typing-option li h1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-left: 2px solid #face30;
+  animation: typing 3s steps(10) infinite;
+}
+@keyframes typing {
+    40%, 60% {
+        left: calc(100% + 30px);
+    }
+    100% {
+        left: 0;
+    }
+} */

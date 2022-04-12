@@ -19,6 +19,8 @@ module.exports = {
         transparentBlack2: "rgb(0 0 0 / 40%)",
         transparentWhite1: "#ffffff30",
         transparentWhite2: "#ffffff40",
+        transparentBlue1: "#4629dd70",
+        transparentBlue2: "#4629dd90",
         buttonCyan: "#4676F5"
       }),
     },
