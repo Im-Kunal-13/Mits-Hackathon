@@ -23,6 +23,9 @@ module.exports = {
         transparentBlue2: "#4629dd90",
         buttonCyan: "#4676F5"
       }),
+      boxShadow: {
+        highlightIconHover: "0 0 10px 0px #00000099",
+      },
     },
   },
   plugins: [],

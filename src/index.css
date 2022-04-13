@@ -63,3 +63,15 @@ code {
         left: 0;
     }
 } */
+/* AUTHENTICATION FORM  */
+.terms-checkbox:checked {
+  background-color: #7F2FE6;
+  border-color: #7F2FE6;
+}
+
+.terms-checkbox:focus {
+  box-shadow: 0 0 0 0.25rem #7e2fe66c;
+}
+.form-submit-button {
+  box-shadow: 0 3px 10px 5px #7e2fe66c;
+}
