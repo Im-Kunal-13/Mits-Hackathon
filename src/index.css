@@ -75,3 +75,6 @@ code {
 .form-submit-button {
   box-shadow: 0 3px 10px 5px #7e2fe66c;
 }
+input:-webkit-autofill { 
+  -webkit-background-clip: text;
+}

@@ -105,6 +105,24 @@ export default function AlumniSignupModal() {
                 aria-describedby="basic-addon1"
               />
             </div>
+            {/* ROLE.  */}
+            <div className="input-group my-4">
+              <span
+                className="input-group-text bg-themeViolet1 border-r-0 rounded-lg border-0 shadow"
+                id="basic-addon1"
+              >
+                <i className="bi bi-person-workspace text-2xl text-white"></i>
+              </span>
+              <input
+                type="text"
+                className="form-control border-l-0 rounded-lg border-0 shadow bg-white"
+                placeholder="Role"
+                aria-label="Username"
+                aria-describedby="basic-addon1"
+                value="Alumni"
+                readOnly
+              />
+            </div>
             {/* ENROLLMENT NO.  */}
             <div className="input-group my-4">
               <span

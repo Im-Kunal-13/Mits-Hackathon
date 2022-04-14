@@ -25,6 +25,7 @@ module.exports = {
       }),
       boxShadow: {
         highlightIconHover: "0 0 10px 0px #00000099",
+        gallerySearchInput: "0 0 20px 10px #00000030",
       },
     },
   },

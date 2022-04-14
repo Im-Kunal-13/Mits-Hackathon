@@ -79,25 +79,25 @@ export default function LandingPage() {
                 aria-labelledby="login-dropdown-button"
               >
                 <li className="flex items-center mb-3 mt-2 cursor-pointer" data-bs-toggle="modal" data-bs-target="#login-admin-backdrop">
-                  <i className="bi bi-person-check-fill text-base bg-transparentBlue1 py-1 px-2 rounded-full shadow-highlightIconHover"></i>
+                  <i className="bi bi-person-check-fill text-base bg-transparentBlue1 hover:bg-transparentBlue2 py-1 px-2 rounded-full shadow-highlightIconHover"></i>
                   <span className="ml-5 font-normal">
                     ADMIN
                   </span>
                 </li>
                 <li className="flex items-center my-3 cursor-pointer" data-bs-toggle="modal" data-bs-target="#login-alumni-backdrop">
-                  <i className="bi bi-mortarboard-fill text-base bg-transparentBlue1 py-1 px-2 rounded-full shadow-highlightIconHover"></i>
+                  <i className="bi bi-mortarboard-fill text-base bg-transparentBlue1 hover:bg-transparentBlue2 py-1 px-2 rounded-full shadow-highlightIconHover"></i>
                   <span className="ml-5 font-normal">
                     ALUMNI
                   </span>
                 </li>
                 <li className="flex items-center my-3 cursor-pointer" data-bs-toggle="modal" data-bs-target="#login-staff-backdrop">
-                  <i className="bi bi-person-rolodex text-base bg-transparentBlue1 py-1 px-2 rounded-full shadow-highlightIconHover"></i>
+                  <i className="bi bi-person-rolodex text-base bg-transparentBlue1 hover:bg-transparentBlue2 py-1 px-2 rounded-full shadow-highlightIconHover"></i>
                   <span className="ml-5 font-normal">
                     STAFF
                   </span>
                 </li>
                 <li className="flex items-center mt-3 mb-2 cursor-pointer" data-bs-toggle="modal" data-bs-target="#login-student-backdrop">
-                  <i className="bi bi-person-fill text-base bg-transparentBlue1 py-1 px-2 rounded-full shadow-highlightIconHover"></i>
+                  <i className="bi bi-person-fill text-base bg-transparentBlue1 hover:bg-transparentBlue2 py-1 px-2 rounded-full shadow-highlightIconHover"></i>
                   <span className="ml-5 font-normal">
                     STUDENT
                   </span>
@@ -119,19 +119,19 @@ export default function LandingPage() {
                 aria-labelledby="signup-dropdown-button"
               >
                 <li className="flex items-center mt-2 mb-3 cursor-pointer" data-bs-toggle="modal" data-bs-target="#signup-alumni-backdrop">
-                  <i className="bi bi-mortarboard-fill text-base bg-transparentBlue1 py-1 px-2 rounded-full shadow-highlightIconHover"></i>
+                  <i className="bi bi-mortarboard-fill text-base bg-transparentBlue1 hover:bg-transparentBlue2 py-1 px-2 rounded-full shadow-highlightIconHover"></i>
                   <span className="ml-5 font-normal">
                     ALUMNI
                   </span>
                 </li>
                 <li className="flex items-center my-3 cursor-pointer" data-bs-toggle="modal" data-bs-target="#signup-staff-backdrop">
-                  <i className="bi bi-person-rolodex text-base bg-transparentBlue1 py-1 px-2 rounded-full shadow-highlightIconHover"></i>
+                  <i className="bi bi-person-rolodex text-base bg-transparentBlue1 hover:bg-transparentBlue2 py-1 px-2 rounded-full shadow-highlightIconHover"></i>
                   <span className="ml-5 font-normal">
                     STAFF
                   </span>
                 </li>
                 <li className="flex items-center mt-3 mb-2 cursor-pointer" data-bs-toggle="modal" data-bs-target="#signup-student-backdrop">
-                  <i className="bi bi-person-fill text-base bg-transparentBlue1 py-1 px-2 rounded-full shadow-highlightIconHover"></i>
+                  <i className="bi bi-person-fill text-base bg-transparentBlue1 hover:bg-transparentBlue2 py-1 px-2 rounded-full shadow-highlightIconHover"></i>
                   <span className="ml-5 font-normal">
                     STUDENT
                   </span>

@@ -105,7 +105,7 @@ export default function StaffSignupModal() {
                 aria-describedby="basic-addon1"
               />
             </div>
-            {/* ENROLLMENT NO.  */}
+            {/* ROLE.  */}
             <div className="input-group my-4">
               <span
                 className="input-group-text bg-themeViolet1 border-r-0 rounded-lg border-0 shadow"
@@ -115,10 +115,12 @@ export default function StaffSignupModal() {
               </span>
               <input
                 type="text"
-                className="form-control border-l-0 rounded-lg border-0 shadow"
+                className="form-control border-l-0 rounded-lg border-0 shadow bg-white"
                 placeholder="Role"
                 aria-label="Username"
                 aria-describedby="basic-addon1"
+                value="Staff"
+                readOnly
               />
             </div>
             {/* PASSWORD.  */}
