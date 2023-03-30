@@ -19,12 +19,10 @@ import Chat from "./Pages/Chat/Chat";
 // Getting the cookies.
 const cookies = new Cookies();
 
-// Api key of Our Stream account.
-const apiKey = "38snc3bywmnw";
 
 const authToken = cookies.get("token");
 
-const client = StreamChat.getInstance(apiKey);
+const client = StreamChat.getInstance(process.env.apiKey);
 
 // If authToken is present then it will connect to the current user and if the user is not present, then it will create it.
 if (authToken) {
